@@ -3,7 +3,17 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown.md
-- file: notebooks
-- file: markdown-notebooks
+parts: 
+  - caption: 連合学習
+    chapters:
+  - file Federated_Learning/About_federated_learning
+
+  - caption: 論文調査
+    chapters:
+  - file paper_research/About_federated_learning
+
+  - caption: test
+    chapters:
+  - file: markdown.md
+  - file: notebooks
+  - file: markdown-notebooks
