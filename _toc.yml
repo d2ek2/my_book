@@ -6,7 +6,7 @@ root: intro
 parts: 
   - caption: 連合学習
     chapters:
-      - file: Federated_Learning/About_federated_learning
+      - file: Federated_Learning/About_Federated_Learning
 
   - caption: 論文調査
     chapters:
